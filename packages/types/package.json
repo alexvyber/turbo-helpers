@@ -1,0 +1,22 @@
+{
+  "name": "@alexvyber/turbo-helpers-types",
+  "version": "0.0.0-dev-1",
+  "private": false,
+  "license": "MIT",
+  "author": "alexvyber",
+  "exports": {
+    "types": "./build/index.d.ts"
+  },
+  "types": "build/index.d.ts",
+  "files": [
+    "/build",
+    "/package.json"
+  ],
+  "scripts": {
+    "build": "cp src/index.ts build/index.d.ts",
+    "prepublishOnly": "turbo run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
