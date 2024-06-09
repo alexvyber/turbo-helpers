@@ -13,10 +13,7 @@
   "module": "build/index.module.js",
   "source": "src/index.ts",
   "types": "build/index.d.ts",
-  "files": [
-    "/build",
-    "/package.json"
-  ],
+  "files": ["/build", "/package.json"],
   "scripts": {
     "build": "microbundle -f esm,cjs",
     "prepublishOnly": "turbo run build",

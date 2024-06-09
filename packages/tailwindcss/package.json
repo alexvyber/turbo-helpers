@@ -1,6 +1,6 @@
 {
   "name": "@alexvyber/turbo-helpers-tailwindcss",
-  "version": "0.0.0-dev-3",
+  "version": "0.0.0-dev-4",
   "private": false,
   "license": "MIT",
   "author": "alexvyber",
@@ -13,10 +13,7 @@
   "module": "build/index.module.js",
   "source": "src/index.ts",
   "types": "build/index.d.ts",
-  "files": [
-    "/build",
-    "/package.json"
-  ],
+  "files": ["/build", "/package.json"],
   "scripts": {
     "build": "microbundle -f esm,cjs",
     "prepublishOnly": "turbo run build",

@@ -1,5 +1,5 @@
-export function getLorem(numberOfParagraphs: number): string {
-  return lorem.slice(0, numberOfParagraphs).join("\n\n")
+export function getLorem(numberOfParagraphs: number): string[] {
+  return lorem.slice(0, numberOfParagraphs)
 }
 
 const lorem = [

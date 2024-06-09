@@ -21,7 +21,7 @@ export function getSpacingRange({
   const cof = step * 4
   const limit = start + numberOfNewSteps * cof
 
-  for (let i = start + cof; i < limit; i = i + cof) {
+  for (let i = start; i < limit; i = i + cof) {
     Object.assign(spacing, { [`${i}`]: `${i / 4}rem` })
   }
 
