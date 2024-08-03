@@ -1,0 +1,27 @@
+{
+  "name": "@alexvyber/prettier-config",
+  "version": "1.0.1",
+  "description": "",
+  "license": "MIT",
+  "private": false,
+  "exports": {
+    ".": "./index.cjs",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "peerDependencies": {
+    "prettier": "^2"
+  },
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "prettier-plugin-pkg": "^0.17.1",
+    "prettier-plugin-sh": "^0.12.8",
+    "prettier-plugin-tailwindcss": "^0.2.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
